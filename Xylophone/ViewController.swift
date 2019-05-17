@@ -13,6 +13,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var audioPlayer: AVAudioPlayer!
     
+    let soundArray = ["note1", "note2", "note3", "note4", "note5", "note6", "note7"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,7 +24,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
 //        print(sender.tag)
         
-        let soundURL = Bundle.main.url(forResource: "note1", withExtension: "wav")
+        playSound(withFile: soundArray[sender.tag - 1])
+        
+    }
+    
+    func playSound(withFile soundFile: String) {
+        
+        let soundURL = Bundle.main.url(forResource: soundFile, withExtension: "wav")
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
         } catch {
