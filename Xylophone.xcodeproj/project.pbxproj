@@ -12,6 +12,13 @@
 		25AE8973228F3DB40087E901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8971228F3DB40087E901 /* Main.storyboard */; };
 		25AE8975228F3DB50087E901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8974228F3DB50087E901 /* Assets.xcassets */; };
 		25AE8978228F3DB50087E901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8976228F3DB50087E901 /* LaunchScreen.storyboard */; };
+		25AE8996228F46AB0087E901 /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE898F228F46AB0087E901 /* note3.wav */; };
+		25AE8997228F46AB0087E901 /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8990228F46AB0087E901 /* note5.wav */; };
+		25AE8998228F46AB0087E901 /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8991228F46AB0087E901 /* note2.wav */; };
+		25AE8999228F46AB0087E901 /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8992228F46AB0087E901 /* note4.wav */; };
+		25AE899A228F46AB0087E901 /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8993228F46AB0087E901 /* note1.wav */; };
+		25AE899B228F46AB0087E901 /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8994228F46AB0087E901 /* note6.wav */; };
+		25AE899C228F46AB0087E901 /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 25AE8995228F46AB0087E901 /* note7.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		25AE8974228F3DB50087E901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25AE8977228F3DB50087E901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25AE8979228F3DB50087E901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25AE898F228F46AB0087E901 /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		25AE8990228F46AB0087E901 /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		25AE8991228F46AB0087E901 /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		25AE8992228F46AB0087E901 /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		25AE8993228F46AB0087E901 /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		25AE8994228F46AB0087E901 /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		25AE8995228F46AB0087E901 /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +74,23 @@
 				25AE8974228F3DB50087E901 /* Assets.xcassets */,
 				25AE8976228F3DB50087E901 /* LaunchScreen.storyboard */,
 				25AE8979228F3DB50087E901 /* Info.plist */,
+				25AE899E228F46E90087E901 /* Sound File */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		25AE899E228F46E90087E901 /* Sound File */ = {
+			isa = PBXGroup;
+			children = (
+				25AE8993228F46AB0087E901 /* note1.wav */,
+				25AE8991228F46AB0087E901 /* note2.wav */,
+				25AE898F228F46AB0087E901 /* note3.wav */,
+				25AE8992228F46AB0087E901 /* note4.wav */,
+				25AE8990228F46AB0087E901 /* note5.wav */,
+				25AE8994228F46AB0087E901 /* note6.wav */,
+				25AE8995228F46AB0087E901 /* note7.wav */,
+			);
+			name = "Sound File";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +151,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25AE899B228F46AB0087E901 /* note6.wav in Resources */,
+				25AE8997228F46AB0087E901 /* note5.wav in Resources */,
 				25AE8978228F3DB50087E901 /* LaunchScreen.storyboard in Resources */,
+				25AE8999228F46AB0087E901 /* note4.wav in Resources */,
 				25AE8975228F3DB50087E901 /* Assets.xcassets in Resources */,
+				25AE899A228F46AB0087E901 /* note1.wav in Resources */,
+				25AE899C228F46AB0087E901 /* note7.wav in Resources */,
+				25AE8998228F46AB0087E901 /* note2.wav in Resources */,
+				25AE8996228F46AB0087E901 /* note3.wav in Resources */,
 				25AE8973228F3DB40087E901 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.mdrubel.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +344,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.mdrubel.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
